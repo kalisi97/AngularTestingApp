@@ -14,7 +14,6 @@ import { PokemonDetailComponent }  from './pokemon-detail/pokemon-detail.compone
 import { PokemonsComponent }      from './pokemons/pokemons.component';
 import { PokemonSearchComponent }  from './pokemon-search/pokemon-search.component';
 import { PokemonService }          from './pokemon.service';
-import { StrengthPipe } from './strength/strength.pipe';
 import { PokemonComponent } from './pokemon/pokemon.component';
 
 @NgModule({
@@ -37,7 +36,6 @@ import { PokemonComponent } from './pokemon/pokemon.component';
     PokemonsComponent,
     PokemonDetailComponent,
     PokemonSearchComponent,
-    StrengthPipe,
     PokemonComponent
   ],
   providers: [ PokemonService],
