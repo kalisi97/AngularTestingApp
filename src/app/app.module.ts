@@ -14,8 +14,6 @@ import { PokemonDetailComponent }  from './pokemon-detail/pokemon-detail.compone
 import { PokemonsComponent }      from './pokemons/pokemons.component';
 import { PokemonSearchComponent }  from './pokemon-search/pokemon-search.component';
 import { PokemonService }          from './pokemon.service';
-import { MessageService }       from './message.service';
-import { MessagesComponent }    from './messages/messages.component';
 import { StrengthPipe } from './strength/strength.pipe';
 import { PokemonComponent } from './pokemon/pokemon.component';
 
@@ -38,12 +36,11 @@ import { PokemonComponent } from './pokemon/pokemon.component';
     DashboardComponent,
     PokemonsComponent,
     PokemonDetailComponent,
-    MessagesComponent,
     PokemonSearchComponent,
     StrengthPipe,
     PokemonComponent
   ],
-  providers: [ PokemonService, MessageService ],
+  providers: [ PokemonService],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
