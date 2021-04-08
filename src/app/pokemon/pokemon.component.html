@@ -1,0 +1,4 @@
+<a routerLink="/detail/{{pokemon.id}}">
+  <span class="badge">{{pokemon.id}}</span> {{pokemon.name}}
+</a>
+<button class="delete" (click)="onDeleteClick($event)">x</button>
